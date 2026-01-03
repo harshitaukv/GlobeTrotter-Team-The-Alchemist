@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GlobalTrotter | Create Trip</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Top Bar */
+.top-bar {
+  background: #000;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #444;
+}
+
+/* Container */
+.container {
+  padding: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section {
+  border: 1px solid #444;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+/* Form */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Suggestions */
+.suggestions {
+  margin-top: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  height: 180px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="top-bar">
+  <div class="brand">GlobalTrotter</div>
+  <div class="profile"></div>
+</nav>
+
+<div class="container">
+
+  <div class="section">
+    <h2>Plan a New Trip</h2>
+
+    <div class="form-grid">
+      <input type="date" placeholder="Start Date">
+      <input type="text" placeholder="Select a Place">
+      <input type="date" placeholder="Start Date">
+      <input type="date" placeholder="End Date">
+    </div>
+  </div>
+
+  <div class="section suggestions">
+    <h2>Suggestions for Places / Activities</h2>
+
+    <div class="cards">
+      <div class="card" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e')"></div>
+      <div class="card" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee')"></div>
+      <div class="card" style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470')"></div>
+      <div class="card" style="background-image:url('https://images.unsplash.com/photo-1493558103817-58b2924bce98')"></div>
+      <div class="card" style="background-image:url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429')"></div>
+      <div class="card" style="background-image:url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34')"></div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GlobalTrotter – Itinerary</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{
+  box-sizing:border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  margin:0;
+  background:#f4f6f8;
+}
+nav{
+  background:#000;
+  color:#fff;
+  padding:14px 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.profile{
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  background:url("https://i.pravatar.cc/150") center/cover;
+}
+.container{
+  padding:30px;
+}
+h2{
+  margin-bottom:15px;
+}
+.day{
+  margin-bottom:30px;
+}
+.day-title{
+  font-weight:600;
+  margin-bottom:10px;
+}
+.itinerary-card{
+  display:flex;
+  gap:20px;
+  background:#fff;
+  padding:15px;
+  border-radius:14px;
+  margin-bottom:12px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+.itinerary-card img{
+  width:130px;
+  height:90px;
+  object-fit:cover;
+  border-radius:10px;
+}
+.details{
+  flex:1;
+}
+.expense{
+  font-weight:600;
+  color:#1b5e20;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <span>GlobalTrotter</span>
+  <div class="profile"></div>
+</nav>
+
+<div class="container">
+  <h2>Itinerary for Bali</h2>
+
+  <!-- Day 1 -->
+  <div class="day">
+    <div class="day-title">Day 1 – Adventure</div>
+
+    <div class="itinerary-card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+      <div class="details">
+        <strong>Beach Walk & Sunset</strong>
+        <p>Relaxing evening at Kuta beach.</p>
+        <div class="expense">₹1,200</div>
+      </div>
+    </div>
+
+    <div class="itinerary-card">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+      <div class="details">
+        <strong>Local Dinner</strong>
+        <p>Traditional Balinese cuisine.</p>
+        <div class="expense">₹900</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Day 2 -->
+  <div class="day">
+    <div class="day-title">Day 2 – Nature</div>
+
+    <div class="itinerary-card">
+      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+      <div class="details">
+        <strong>Mountain Trek</strong>
+        <p>Early morning trek with guide.</p>
+        <div class="expense">₹2,500</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GlobalTrotter – Profile</title>
+<style>
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background: #f4f6f8;
+}
+.nav {
+  background: #000;
+  color: #fff;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  padding: 24px;
+}
+.profile {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+}
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.trips {
+  margin-top: 30px;
+}
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.trip {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.trip img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+.trip button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+}
+</style>
+</head>
+
+<body>
+<div class="nav">
+  <span>GlobalTrotter</span>
+  <div>👤</div>
+</div>
+
+<div class="container">
+
+<div class="profile">
+  <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde">
+  <div>
+    <h3>User Name</h3>
+    <p>Email: user@email.com</p>
+    <p>Travel Enthusiast 🌍</p>
+  </div>
+</div>
+
+<div class="trips">
+<h3>Preplanned Trips</h3>
+<div class="trip-grid">
+  <div class="trip">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+    <button>View</button>
+  </div>
+  <div class="trip">
+    <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1">
+    <button>View</button>
+  </div>
+  <div class="trip">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+    <button>View</button>
+  </div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

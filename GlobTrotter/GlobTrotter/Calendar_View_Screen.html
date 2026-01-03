@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlobalTrotter – Calendar View</title>
+
+<style>
+body {
+  margin: 0;
+  background: #0f0f0f;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Top Bar */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #444;
+}
+
+/* Calendar Card */
+.calendar-card {
+  margin-top: 25px;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* Month Header */
+.month-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.month-header h2 {
+  margin: 0;
+}
+
+/* Calendar Grid */
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.day-name {
+  text-align: center;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.date {
+  min-height: 90px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 6px;
+  font-size: 13px;
+  background: #141414;
+}
+
+.date span {
+  font-weight: bold;
+}
+
+/* Trip Tags */
+.trip {
+  margin-top: 5px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  font-size: 11px;
+  color: #000;
+}
+
+.paris {
+  background: #f9c74f;
+}
+
+.japan {
+  background: #90dbf4;
+}
+
+.nyc {
+  background: #cdb4db;
+}
+
+.london {
+  background: #b7e4c7;
+}
+
+/* Empty Dates */
+.empty {
+  border: none;
+  background: transparent;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="brand">GlobalTrotter</div>
+    <div class="profile"></div>
+  </div>
+
+  <!-- Calendar -->
+  <div class="calendar-card">
+
+    <div class="month-header">
+      <button>&lt;</button>
+      <h2>January 2024</h2>
+      <button>&gt;</button>
+    </div>
+
+    <div class="calendar">
+
+      <!-- Days -->
+      <div class="day-name">Sun</div>
+      <div class="day-name">Mon</div>
+      <div class="day-name">Tue</div>
+      <div class="day-name">Wed</div>
+      <div class="day-name">Thu</div>
+      <div class="day-name">Fri</div>
+      <div class="day-name">Sat</div>
+
+      <!-- Empty before Jan 1 -->
+      <div class="date empty"></div>
+
+      <!-- Dates -->
+      <div class="date"><span>1</span></div>
+
+      <div class="date"><span>2</span></div>
+
+      <div class="date">
+        <span>3</span>
+        <div class="trip paris">Paris Trip</div>
+      </div>
+
+      <div class="date">
+        <span>4</span>
+        <div class="trip paris">Paris Trip</div>
+      </div>
+
+      <div class="date">
+        <span>5</span>
+        <div class="trip paris">Paris Trip</div>
+      </div>
+
+      <div class="date"><span>6</span></div>
+
+      <div class="date"><span>7</span></div>
+
+      <div class="date"><span>8</span></div>
+
+      <div class="date">
+        <span>9</span>
+        <div class="trip japan">Japan Adventure</div>
+      </div>
+
+      <div class="date">
+        <span>10</span>
+        <div class="trip japan">Japan Adventure</div>
+      </div>
+
+      <div class="date">
+        <span>11</span>
+        <div class="trip japan">Japan Adventure</div>
+      </div>
+
+      <div class="date"><span>12</span></div>
+
+      <div class="date"><span>13</span></div>
+
+      <div class="date">
+        <span>14</span>
+        <div class="trip london">London</div>
+      </div>
+
+      <div class="date"><span>15</span></div>
+
+      <div class="date">
+        <span>16</span>
+        <div class="trip nyc">NYC Getaway</div>
+      </div>
+
+      <div class="date">
+        <span>17</span>
+        <div class="trip nyc">NYC Getaway</div>
+      </div>
+
+      <div class="date"><span>18</span></div>
+      <div class="date"><span>19</span></div>
+      <div class="date"><span>20</span></div>
+
+      <div class="date"><span>21</span></div>
+      <div class="date"><span>22</span></div>
+      <div class="date"><span>23</span></div>
+      <div class="date"><span>24</span></div>
+      <div class="date"><span>25</span></div>
+      <div class="date"><span>26</span></div>
+      <div class="date"><span>27</span></div>
+
+      <div class="date"><span>28</span></div>
+      <div class="date"><span>29</span></div>
+      <div class="date"><span>30</span></div>
+      <div class="date"><span>31</span></div>
+
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

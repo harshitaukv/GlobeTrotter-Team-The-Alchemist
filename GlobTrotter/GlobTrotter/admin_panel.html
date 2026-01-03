@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GlobalTrotter – Admin Panel</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #000;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: url("https://i.pravatar.cc/150?img=12") center/cover;
+}
+
+.container {
+  padding: 30px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls input, .controls button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+}
+
+.controls input {
+  flex: 1;
+}
+
+.controls button {
+  background: #222;
+  color: #fff;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background: #333;
+  color: #fff;
+}
+
+.admin-panel {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.chart-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.chart-box img {
+  width: 100%;
+}
+
+.info-box {
+  background: #1c1c1c;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top-bar">
+  <div class="brand">GlobalTrotter</div>
+  <div class="profile"></div>
+</div>
+
+<div class="container">
+
+  <div class="controls">
+    <input type="text" placeholder="Search bar...">
+    <button>Group by</button>
+    <button>Filter</button>
+    <button>Sort by</button>
+  </div>
+
+  <div class="tabs">
+    <button>Manage Users</button>
+    <button>Popular Trips</button>
+    <button>Popular Activities</button>
+    <button>User Trends</button>
+  </div>
+
+  <div class="admin-panel">
+
+    <div class="chart-box">
+      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Analytics">
+      <img src="https://quickchart.io/chart?c={type:'pie',data:{labels:['Trips','Users','Revenue'],datasets:[{data:[40,35,25]}]}}" />
+    </div>
+
+    <div class="info-box">
+      <h3>Admin Insights</h3>
+      <p>• Monitor platform usage</p>
+      <p>• Analyze popular destinations</p>
+      <p>• Track user engagement</p>
+      <p>• Improve travel recommendations</p>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
