@@ -1,104 +1,96 @@
-# WanderMate
+# 🌍 WanderMate
 
-**WanderMate** is a smart travel guidance app designed to help users explore destinations with ease. Whether you’re planning a trip or navigating on the go, WanderMate provides personalized suggestions, route guidance, local tips, and travel insights — all in one place.
+**WanderMate** is a travel guidance web application built using **HTML, CSS, and PHP**, designed to help users explore destinations, plan trips, and get essential travel information in a simple and user-friendly way.
 
 ---
 
 ## 🚀 Features
 
-* 🗺️ **Explore Popular Destinations** – Browse cities, landmarks, and attractions with helpful descriptions.
-* 📍 **Personalized Travel Guidance** – Get recommendations based on your interests and travel style.
-* 🧭 **Route Planning** – Find best routes between locations with step-by-step guidance.
-* 🗓️ **Trip Itinerary** – Create day-wise travel plans and save favorites for quick access.
-* 🌟 **Local Tips & Highlights** – Discover local hotspots, cultural insights, and travel hacks.
+* 🗺️ **Destination Exploration** – View popular travel destinations with details
+* 🧭 **Travel Guidance** – Helps users plan routes and trips efficiently
+* 🗓️ **Trip Planning** – Organize travel plans and itineraries
+* 🔐 **User Interaction** – PHP handles dynamic content and user requests
+* 🎨 **Responsive UI** – Clean and responsive design using HTML & CSS
 
 ---
 
-## 🧠 Technologies Used
+## 🛠️ Technologies Used
 
-* **Frontend:** React / Flutter / Swift / Kotlin *(choose your stack)*
-* **Backend:** Node.js / Django / Flask *(replace as appropriate)*
-* **Database:** MongoDB / PostgreSQL
-* **APIs:** Google Maps / OpenStreetMap / Places API
-* **Authentication:** JWT / OAuth
+* **Frontend:** HTML, CSS
+* **Backend:** PHP
+* **Database:** MySQL 
+* **Server:** Apache (XAMPP)
 
 ---
 
-## 📥 Installation
+## 📥 Installation & Setup
 
-Follow these steps to set up the project locally:
+1. Clone the repository:
 
 ```bash
-# Clone the repository
 git clone https://github.com/harshitaukv/WanderMate.git
+```
 
-# Change directory
-cd WanderMate
+2. Move the project to your server directory:
 
-# Install dependencies
-npm install        # (for Node + React setup)
-# or 
-pip install -r requirements.txt  # (Python backend)
+```text
+htdocs/ (for XAMPP)
+```
 
-# Start the application
-npm start         # Frontend
-npm run backend   # Backend
+3. Start **Apache** (and **MySQL** if used) from XAMPP/WAMP.
+
+4. Open the app in your browser:
+
+```text
+http://localhost/WanderMate/
 ```
 
 ---
 
 ## 📌 Usage
 
-1. **Sign up / Login** to create a personalized travel profile.
-2. **Search destinations** or browse suggestions.
-3. **Build your itinerary** by adding locations and routes.
-4. **Get guidance** with real-time directions and local tips.
-5. **Save favorites** to revisit later.
+* Users can browse destinations and travel information
+* Plan trips using a simple web interface
+* PHP enables dynamic content handling and backend logic
 
 ---
 
-## 📁 Folder Structure
+## 📁 Project Structure
 
 ```
 WanderMate/
-├── backend/
-│   ├── app.js
-│   ├── routes/
-│   └── models/
-├── frontend/
-│   ├── src/
-│   ├── components/
-│   └── assets/
-├── docs/
+├── css/
+│   └── style.css
+├── php/
+│   └── config.php
+├── images/
+├── index.php
 ├── README.md
 └── .gitignore
 ```
 
 ---
 
-## 🤝 Contributing
+## 🔮 Future Enhancements
 
-Contributions are welcome!
-To contribute:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-name`)
-3. Make your changes
-4. Push to your branch
-5. Open a Pull Request
+* User login & authentication
+* AI-based travel recommendations
+* Map integration (Google Maps API)
+* Booking assistance and alerts
 
 ---
 
-## 💡 Future Enhancements
+## 👩‍💻 Author
 
-* 🎤 Voice travel assistant
-* 🧳 Offline maps & tips
-* 🌐 Multilingual support
-* 🚗 Transport price estimations
-* 🤝 Social trip sharing
-
-
+**Harshita U**
+GitHub: [https://github.com/harshitaukv](https://github.com/harshitaukv)
 
 ---
 
-If you want, I can tailor this **exactly to your tech stack** (React vs Flutter vs Django, etc.) — just tell me what you used! 🚀
+If you want, I can also:
+
+* ✨ shorten this README
+* ✨ make it more **internship-oriented**
+* ✨ or add **screenshots + badges**
+
+Just say the word 😊
