@@ -80,17 +80,4 @@ WanderMate/
 
 ---
 
-## 👩‍💻 Author
 
-**Harshita U**
-GitHub: [https://github.com/harshitaukv](https://github.com/harshitaukv)
-
----
-
-If you want, I can also:
-
-* ✨ shorten this README
-* ✨ make it more **internship-oriented**
-* ✨ or add **screenshots + badges**
-
-Just say the word 😊
